@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b0bbd547b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./igen.css">
+    
+    <title>Id Generator</title>
+</head>
+<body>
+    
+    <div id="headers"><header>Id Card Generator</header></div>
+    <div id="divIn">
+        <div id="div1">
+        <h1>Enter Student details</h1>
+      
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input  class="input-field " id="name" type="text" placeholder="Name" name="usrnm"/>
+            </div>
+          
+            <div class="input-container">
+              <i class="fas fa-university icon"></i>
+              <input class="input-field college" id="college" type="text" placeholder="College" name="College"/>
+            </div>
+          
+            <div class="input-container">
+              <i class="fas fa-location-arrow icon"></i>
+              <input class="input-field location" id="location" type="text"  placeholder="Location" name="location"/>
+            </div>
+                <button id="submitButton" type="submit" class="btn">Generate Id</button>
+                
+          
+        </div>
+    </div>
+    <div id="divOut">
+        <div id="div2">
+          <h1 id="h1id">Id Card</h1>
+          <div id="item">
+            <p id="namess"></p>
+            <p id="collegess"></p> 
+            <p id="locationss"></p>
+          
+          </div>
+          <div id="image"><img id="blah" src="http://placehold.it/180" alt="your image" /></div>
+        </div>
+    </div>
+    <script src="./idhen.js"></script>
+</body>
+</html>
