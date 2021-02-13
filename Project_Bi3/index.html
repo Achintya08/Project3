@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7b0bbd547b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./igen.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
     
     <title>Id Generator</title>
 </head>
@@ -30,21 +32,27 @@
               <i class="fas fa-location-arrow icon"></i>
               <input class="input-field location" id="location" type="text"  placeholder="Location" name="location"/>
             </div>
+            <div class="input-container">
+        
+             <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+              <p><label id="btn" for="file" style="cursor: pointer;">Upload Image </label></p>
+            </div>
+           
                 <button id="submitButton" type="submit" class="btn">Generate Id</button>
                 
-          
+               
         </div>
     </div>
     <div id="divOut">
         <div id="div2">
-          <h1 id="h1id">Id Card</h1>
+          <div id="h1div"><h1 id="h1id">Id Card</h1></div>
           <div id="item">
             <p id="namess"></p>
             <p id="collegess"></p> 
             <p id="locationss"></p>
           
           </div>
-          <div id="image"><img id="blah" src="http://placehold.it/180" alt="your image" /></div>
+          <img id="blah" width="150" wialt="your image" />
         </div>
     </div>
     <script src="./idhen.js"></script>

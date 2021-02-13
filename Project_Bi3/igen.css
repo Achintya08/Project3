@@ -1,4 +1,7 @@
 * {box-sizing: border-box;}
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+}
 #divIn{
     float: left;
     width: 50%;
@@ -75,18 +78,31 @@ h1{
 }
 #h1id{
   margin-left: 40%;
+  color: white;
   
 }
 #item{
-  float: right;
-  margin-right: 5%;
-  margin-left: -10px;
+float: right;
+  margin-right: 20%;
+  margin-top: 2%;
+  font-size: 20px;
+  
 }
 #blah{
   margin-bottom: 5%;
-  margin-left:5% ;
+  margin-left: 5%;
+  
 }
 
 p{
   color: black;
+}
+#h1div{
+  background-color:dodgerblue ;
+}
+#btn{
+  background-color: dodgerblue ;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
 }
